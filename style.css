@@ -1,0 +1,62 @@
+body {
+  background-color: #ededed;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  color: #528ab7;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dc2221;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 16px;
+  text-decoration: none;
+}
+
+#spidermanBilde {
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+}
+
+#spiderman {
+  font-size: 50px;
+}
+
+.info {
+  margin-top: 15%;
+  margin-right: 60%;
+  margin-left: 5%;
+  position: absolute;
+}
+
+.button {
+  border-radius: 8px;
+  background-color: #528ab7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  box-shadow: 3px 3px #000000;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.6;
+}
