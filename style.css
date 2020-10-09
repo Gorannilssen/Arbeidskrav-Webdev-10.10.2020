@@ -26,6 +26,10 @@ li a {
   text-decoration: none;
 }
 
+li a:hover {
+  opacity: 0.6;
+}
+
 #spidermanBilde {
   position: absolute;
   left: 50%;
